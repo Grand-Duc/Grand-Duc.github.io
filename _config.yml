@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "http://127.0.0.1:4000"
+url: "https://Grand-Duc.github.io"
 
 github:
   username: Grand-Duc # change to your GitHub username
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: "http://127.0.0.1:4000"
+cdn: "https://Grand-Duc.github.io"
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "/assets/img/Grand-Duc.png"
@@ -123,9 +123,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: "Grand-Duc/Grand-Duc.github.io"
-    repo_id: "R_kgDOPoqzXw"
+    repo_id: "R_kgDOPosvSQ"
     category: "General"
-    category_id: "DIC_kwDOPoqzX84Cu5Nc"
+    category_id: "DIC_kwDOPosvSc4Cu5R9"
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
