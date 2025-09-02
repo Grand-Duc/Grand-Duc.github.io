@@ -17,7 +17,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   overflow-y: auto;
   width: v.$sidebar-width;
   background: var(--sidebar-bg);
-  border-right: 1px solid var(--sidebar-border-color);
+  border-right: 10px solid var(--sidebar-border-color);
 
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
@@ -58,7 +58,8 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     width: 6.5rem;
     height: 6.5rem;
     overflow: hidden;
-    box-shadow: var(--avatar-border-color) 0 0 0 2px;
+
+    // box-shadow: var(--avatar-border-color) 0 0 0 2px;
     transform: translateZ(0); /* fixed the zoom in Safari */
 
     @include bp.sm {
@@ -138,11 +139,13 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
         display: flex;
         align-items: center;
-        border-radius: 0.75rem;
+
+        // border-radius: 0.75rem;
         font-weight: 600;
 
         &:hover {
-          background-color: var(--sidebar-hover-bg);
+          // background-color: var(--sidebar-hover-bg);
+          box-shadow: inset 5px 0 0 var(--sidebar-hover-bg);
         }
 
         i {
@@ -160,7 +163,9 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       &.active {
         .nav-link {
           color: var(--sidebar-active-color);
-          background-color: var(--sidebar-hover-bg);
+
+          // background-color: var(--sidebar-hover-bg);
+          box-shadow: inset 5px 0 0 var(--sidebar-active-color);
 
           span {
             opacity: 1;
@@ -198,12 +203,12 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       align-items: center;
       justify-content: center;
 
-      &:not(:focus-visible) {
-        box-shadow: var(--sidebar-border-color) 0 0 0 1px;
-      }
+      // &:not(:focus-visible) {
+      //   box-shadow: var(--sidebar-border-color) 0 0 0 1px;
+      // }
 
       &:hover {
-        background-color: var(--sidebar-hover-bg);
+        // background-color: var(--sidebar-hover-bg);
       }
     }
 
